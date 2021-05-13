@@ -1,0 +1,11 @@
+*.mp3 filter=lfs -text
+*.zip filter=lfs -text
+*.gz filter=lfs -text
+*.bz filter=lfs -text
+*.tgz filter=lfs -text
+*.tbz filter=lfs -text
+*.tar.gz filter=lfs -text
+*.tar.bz filter=lfs -text
+*.pkg filter=lfs -text
+*.dmg filter=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
